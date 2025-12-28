@@ -1,35 +1,66 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #020617, #020617);
   color: #e5e7eb;
 }
 
 header {
-  background: linear-gradient(90deg, #2563eb, #06b6d4);
-  padding: 20px;
+  background: linear-gradient(90deg, #2563eb, #22d3ee);
+  padding: 25px;
   text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header .tag {
+  display: inline-block;
+  margin-top: 8px;
+  background: #020617;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
   background: #020617;
-  padding: 10px;
+  padding: 12px;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
   color: #38bdf8;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-section {
+.card {
+  background: #020617;
+  margin: 15px;
   padding: 20px;
-  border-bottom: 1px solid #1e293b;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-h2 {
+.card h2 {
   color: #60a5fa;
+}
+
+.alert {
+  border-left: 5px solid #ef4444;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  background: #020617;
+  color: #94a3b8;
 }
