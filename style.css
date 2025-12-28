@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+header {
+  background: linear-gradient(90deg, #2563eb, #06b6d4);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #020617;
+  padding: 10px;
+}
+
+nav a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #1e293b;
+}
+
+h2 {
+  color: #60a5fa;
+}
